@@ -128,10 +128,10 @@ def run_experiment(G, hyper_parameters, path_to_dir, save_flag=False, show_flag=
 def regular_graph():
     path_to_dir = "./experiments/coin_flip_regular_graph/"
 
-    seed_algo_list = list(range(5))
+    seed_algo_list = list(range(10))
     network_list = ['center-based', 'distributed']
     algo_list = ['tsallis', 'exp3', 'hybrid']
-    n_actions_list = [40]
+    n_actions_list = [10, 20, 40]
     delay_list = [1]
     degree_list = [2]
 
@@ -296,7 +296,7 @@ def star_graph():
 
 
 if __name__ == "__main__":
-    # regular_graph()
+    regular_graph()
     # path_graph()
     # star_graph()
-    erdos_renyi_graph()
+    # erdos_renyi_graph()
