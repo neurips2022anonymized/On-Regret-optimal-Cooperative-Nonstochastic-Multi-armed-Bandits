@@ -131,7 +131,7 @@ def regular_graph():
     seed_algo_list = list(range(10))
     network_list = ['center-based', 'distributed']
     algo_list = ['tsallis', 'exp3', 'hybrid']
-    n_actions_list = [10, 20, 40]
+    n_actions_list = [10, 20, 25, 30, 40]
     delay_list = [1]
     degree_list = [2]
 
